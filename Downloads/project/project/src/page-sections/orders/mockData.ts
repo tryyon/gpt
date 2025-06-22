@@ -1,0 +1,36 @@
+export const mockOrders = [
+  {
+    id: 1,
+    orderNumber: 'ORD-2024-001',
+    customer: 'John Doe',
+    email: 'john@example.com',
+    orderBy: 'Customer',
+    date: '2024-03-15T10:30:00',
+    total: 299.99,
+    status: 'Completed',
+    paymentStatus: 'Paid',
+  },
+  {
+    id: 2,
+    orderNumber: 'ORD-2024-002',
+    customer: 'Jane Smith',
+    email: 'jane@example.com',
+    orderBy: 'Reseller',
+    date: '2024-03-15T11:45:00',
+    total: 499.99,
+    status: 'Processing',
+    paymentStatus: 'Pending',
+  },
+  {
+    id: 3,
+    orderNumber: 'ORD-2024-003',
+    customer: 'Bob Wilson',
+    email: 'bob@example.com',
+    orderBy: 'Customer',
+    date: '2024-03-15T14:20:00',
+    total: 199.99,
+    status: 'Pending',
+    paymentStatus: 'Pending',
+  },
+  // Add more mock orders as needed
+];
